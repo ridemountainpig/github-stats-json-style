@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 
 def generate_github_stats(username):
-    url = f"https://github-readme-stats.vercel.app/api?username={username}"
+    url = f"https://yc-github-stats.zeabur.app/api?username={username}"
 
     header = {
         "Content-Type":
